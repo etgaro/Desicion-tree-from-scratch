@@ -19,62 +19,7 @@ disappear.
 The cost is the number of moves that is needed to reach the goal, so we
 wish to minimize the number of steps that it will take to reach the goal board
 
-For example:
-Board 1 (starting position):
-1 2 3 4 5 6
-1:* * *
-2: * @ *
-1-1
-3:@
-4: @ @
-5:*
-6: @
------
-Board 2:
-1 2 3 4 5 6
-1:* * *
-2: * @ *
-3:@
-4: @ @
-5:
-6:* @
------
-Board 3:
-1 2 3 4 5 6
-1:* * *
-2: * @ *
-3:@
-4: @ @
-5:
-6:* @
------
-Board 4:
-1 2 3 4 5 6
-1:* * *
-2: * @
-3:@ *
-4: @ @
-5:
-6:* @
------
-Board 5:
-1 2 3 4 5 6
-1:* * *
-2: * @
-3:@ *
-4: @ @
-5:
-6: @
------
-Board 6 (goal position):
-1-2
-1 2 3 4 5 6
-1:* *
-2: * @ *
-3:@ *
-4: @ @
-5:
-6: @
+
 
 In this exercise you will only implement A* algorithm to solve this. 
 
@@ -110,25 +55,3 @@ If the binary variable is true, for the first transformation (from the first set
 of locations to your second set of locations) you need to print out your work
 process, so for search method:
 1-3
-
-A*-heuristic search Print out the heuristic value of the board you are choosing. So the beginning of your print out will be:
-Board 1 (starting position):
-1 2 3 4 5 6
-1:* * *
-2: * @ *
-3:@
-4: @ @
-5:*
-6: @
------
-Board 2:
-1 2 3 4 5 6
-1:* * *
-2: * @ *
-3:@
-4: @ @
-5:
-6:* @
-Heuristic: <your number here>
------
-(the rest of the output as above)
