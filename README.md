@@ -1,7 +1,7 @@
 # Desicion-tree-from-scratch
 Assignment in AI Foundations course at BGU
 
-1 Problem 1: A Board of Trouble
+Problem 1: A Board of Trouble
 
 In this exercise you will build a function that starts from one board and tries
 to reach another using only a chain of legal moves. We will use 6 × 6 boards which you
